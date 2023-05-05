@@ -1,0 +1,25 @@
+#page-title {
+	padding-top: 3rem;
+	padding-bottom: 5px;
+}
+.page-title-text {
+	font-size: 1.8rem;
+	color: var(--black-1);
+}
+@media only screen and (min-width: 768px) {
+	#page-title {
+		padding-top: 5rem;
+		padding-bottom: 5px;
+	}
+	.page-title-text {
+		font-size: 2.2rem;
+	}
+}
+
+#dishGrid{
+	padding-bottom:0;
+}
+
+#dishGrid:last-of-type {
+	padding-bottom: 5rem;
+}
